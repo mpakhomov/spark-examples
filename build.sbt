@@ -62,6 +62,12 @@ libraryDependencies += "org.apache.hbase" % "hbase-client" % "1.2.1"
 
 libraryDependencies += "org.apache.hbase" % "hbase-common" % "1.2.1"
 
+//libraryDependencies += "org.specs2" % "specs2_2.11" % "3.7" pomOnly()
+
+libraryDependencies += "org.specs2" % "specs2-core_2.11" % "3.7"
+
+libraryDependencies += "org.specs2" % "specs2-scalacheck_2.11" % "3.7"
+
 //libraryDependencies += "org.scalaz" % "scalaz-core_2.11" % "7.2.0" withSources() withJavadoc()
 
 //scalacOptions ++= Seq(
